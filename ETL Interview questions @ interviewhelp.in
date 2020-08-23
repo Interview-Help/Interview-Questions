@@ -1,0 +1,196 @@
+What is ETL?
+
+ETL stands for Extract Transform and Load. Just like the name suggest ETL tool Extract data from the different sources. Transforms the and then it load the data to one destination.
+
+
+
+
+
+ 
+
+             ETL Interview Quetions and Answers PDF at https://interviewhelp.in
+
+ 
+
+
+
+What is the difference between ETL and ELT?
+
+ETL is extract, transform and load, while ELT is extract load and transform. In ETL data is first transformed and then load while in ELT it is first loaded and then transformed. The main difference is mor space is required in ELT as the data transformed afterwards as compared with ETL.
+
+ 
+
+                                                etl interview questions edureka
+
+
+
+What are different examples of data transformation in ETL?
+
+
+
+There are following examples of data transformation:
+
+1.Quality data : Data is fetched from different sources so it needs to be standardized as per the target system.
+
+2.Character set conversion : Need to transform the character sets as per the target systems. (Firstname and last name example).
+
+3.Calculated and derived values: In source system there is first value and second value and in target we need the calculation of first value and second value.
+
+4.Data Conversion in different formats : If in source system date in in DDMMYY format and in target the date is in DDMONYYYY format then this transformation needs to be done during transformation phase of ETL.
+
+ 
+
+                                        etl interview questions amazon
+
+
+
+What does partitioning mean? Why do we need it ?
+
+ 
+
+The transactions are always needed to be divided for the better performance. The same processes are known as Partitioning. It simply makes sure that the server can directly access the sources through multiple connections.
+
+
+
+                                    etl interview questions for 4 years exp
+
+
+
+What is data loading? Explain its types.
+
+Data loading are different ways through which prepared data can be loaded from staging tables to main tables.
+
+These are following types of data loading:
+
+· Initial load : Populating all the data tables from source system and loads it in to data warehouse table.
+
+· Incremental Load : Populate only delta or new changes data only.
+
+· Full Refresh : Completely erases the data from one or more tables and reload the fresh data just like truncate and load.
+
+                                     
+
+                                                etl interview questions with answers
+
+
+
+Question 6: What are different types of ETL tools?
+
+here are following types of ETL tools:
+
+1.Enterprise ETL tools :
+
+Informatica
+Alteryx
+IBM Datastage
+Abnitio
+MS SQL server integration services
+Clover ETL
+2.Open Source ETL Tools :
+
+Pentaho
+Kettle
+ 
+
+                                                etl interview questions ssis
+
+
+
+
+
+What is the difference between data warehouse and database ?
+
+A data warehouse is a database used to store data from homo or heterogeneous sources. It is a central repository of data. The data warehouse is then used for reporting and analytical purposes. A database, on the other hand, is the basis or any data storage. It is an organized collection of data. A database is used to store data while a data warehouse is mostly used to facilitate reporting and analysis.
+
+ 
+
+                        etl interview questions target
+
+
+
+What are different types of tables in Data warehouse?
+
+There are two types of tables in Datawarehouse,
+
+1. Fact table
+
+2. Dimension table
+
+ 
+
+                                    etl interview questions for testers
+
+
+
+What is fact table? What are different types of fact table?: W
+
+It is a central component of a multi-dimensional model which contains the measures to be analysed. Facts are related to dimensions.
+
+Types of facts are
+
+· Additive Facts
+
+· Semi-additive Facts
+
+· Non-additive Facts
+
+
+
+
+
+What are Dimension table?
+
+Dimensions are the groups or categories through which the summarized data are sorted.
+
+ 
+
+How many types of schemas are there in datawarehouse?
+
+There are three types of schemas :
+
+Star 
+Snowflake 
+Star Constellation schema.
+ 
+
+What is Datamart?
+
+A Data Mart is a subset of a data base that can provide data for reporting and analysis on a section, unit or department. The Data Mart is sometimes also called as HPQS (Higher Performance Query Structure). Example, Bank is known as database while its various units like, Insurance, Finance etc are known as datamart.
+
+ 
+
+What is Data cleaning?
+
+Data cleaning is also known as data scrubbing or data qualifying.
+
+Data cleansing is a process that ensures the set of data is correct and accurate. Data accuracy and consistency, data integration is checked during data cleaning. Data cleaning can be applied for a set of records or multiple sets of data that need to be merged.
+
+
+
+What is Star schema model in data warehouse?
+
+ A star schema is defined as a logical database design in which there will be a centrally located fact table that is surrounded by at least one or more dimension tables. This design is best suited for Data Warehouse or Data Mart.
+
+
+
+What is Snowflake schema model in data warehouse?
+
+A snowflake schema is defined as a logical database design in which there will be a centrally located fact table that can be surrounded by at least one or more dimension tables or with other fact tables which can be surrounded by other dimension tables as well.
+
+
+
+What is Metadata?
+
+Data about data is called Metadata. The Metadata contains the definition of data.
+
+
+
+
+
+What is SCD(Slowly changing dimesion)?
+
+SCD is dimensioned whose data changes very slowly.
+
+eg: city or an employee.
+This dimension will change very slowly.
+The row of this data in the dimension can be either replaced completely without any track of old record OR a new row can be inserted, OR the change can be tracked. 
